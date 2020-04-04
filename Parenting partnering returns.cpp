@@ -22,6 +22,7 @@ int main() {
        string ans(n,'C');
        ans[v[0].second]='C';
        if(v[0].first.second>v[1].first.first)
+          //v[0]
         s+='J',ans[v[1].second]='J';
         else
             s+='C',ans[v[1].second]='C';
